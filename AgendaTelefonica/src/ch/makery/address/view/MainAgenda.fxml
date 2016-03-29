@@ -57,7 +57,7 @@
                   <Insets left="20.0" />
                </opaqueInsets>
             </Label>
-            <HBox spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <HBox spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                <children>
                   <Button mnemonicParsing="false" text="Excluir">
                      <font>
@@ -78,6 +78,9 @@
                      </font>
                   </Button>
                </children>
+               <padding>
+                  <Insets left="230.0" />
+               </padding>
             </HBox>
             <Text fill="#0022ff" opacity="0.84" strokeType="OUTSIDE" strokeWidth="0.0" text="Agenda Telefonica">
                <font>
@@ -95,7 +98,8 @@
                </effect>
             </Text>
             <TextField maxWidth="120.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField maxWidth="450.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField maxWidth="440.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField maxWidth="200.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
          </children>
       </GridPane>
    </children>
