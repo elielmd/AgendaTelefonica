@@ -31,6 +31,9 @@
                <GridPane.margin>
                   <Insets left="20.0" />
                </GridPane.margin>
+               <opaqueInsets>
+                  <Insets left="20.0" />
+               </opaqueInsets>
             </Label>
             <Label text="Nome" GridPane.rowIndex="2">
                <opaqueInsets>
@@ -39,6 +42,14 @@
                <font>
                   <Font size="15.0" />
                </font>
+            </Label>
+            <Label text="Telefone" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets left="20.0" />
+               </opaqueInsets>
             </Label>
          </children>
       </GridPane>
