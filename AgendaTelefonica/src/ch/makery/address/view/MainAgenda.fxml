@@ -57,6 +57,14 @@
                   <Font size="15.0" />
                </font>
             </Button>
+            <Button mnemonicParsing="false" text="Salvar" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <opaqueInsets>
+                  <Insets left="50.0" />
+               </opaqueInsets>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
          </children>
       </GridPane>
    </children>
