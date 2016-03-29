@@ -95,6 +95,7 @@
                </effect>
             </Text>
             <TextField maxWidth="120.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField maxWidth="450.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
          </children>
       </GridPane>
    </children>
