@@ -61,12 +61,12 @@
             </Label>
             <HBox spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                <children>
-                  <Button mnemonicParsing="false" text="Excluir">
+                  <Button id="IdExcluir" fx:id="IdExcluir" mnemonicParsing="false" text="Excluir">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" text="Salvar">
+                  <Button id="IdSalvar" fx:id="IdSalvar" mnemonicParsing="false" text="Salvar">
                      <opaqueInsets>
                         <Insets left="50.0" />
                      </opaqueInsets>
@@ -74,7 +74,7 @@
                         <Font size="15.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" text="Limpar">
+                  <Button id="IdLimpar" fx:id="IdLimpar" mnemonicParsing="false" text="Limpar">
                      <font>
                         <Font size="15.0" />
                      </font>
@@ -99,16 +99,16 @@
                   </Lighting>
                </effect>
             </Text>
-            <TextField maxWidth="120.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField maxWidth="440.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField maxWidth="200.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField id="ID" fx:id="IdUsuario" maxWidth="120.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField id="IdNome" fx:id="IdNome" maxWidth="440.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField id="IdTelefone" fx:id="IdTelefone" maxWidth="200.0" prefHeight="15.0" prefWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
          </children>
       </GridPane>
-      <TableView layoutX="113.0" layoutY="180.0" prefHeight="250.0" prefWidth="660.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+      <TableView fx:id="Id" layoutX="113.0" layoutY="180.0" prefHeight="250.0" prefWidth="660.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
         <columns>
-          <TableColumn prefWidth="147.0" text="ID" />
-          <TableColumn prefWidth="359.0" text="Nome" />
-            <TableColumn minWidth="0.0" prefWidth="153.0" text="Telefone" />
+          <TableColumn fx:id="IdC" prefWidth="147.0" text="ID" />
+          <TableColumn fx:id="IdCNome" prefWidth="359.0" text="Nome" />
+            <TableColumn fx:id="IdCTelefone" minWidth="0.0" prefWidth="153.0" text="Telefone" />
         </columns>
       </TableView>
    </children>
